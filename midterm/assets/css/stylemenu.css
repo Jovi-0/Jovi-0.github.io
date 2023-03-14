@@ -44,66 +44,54 @@ h2 {
     color: white;
     margin-right: 30px;
 }
-h3{
+h3 {
     font-family: 'Montagu Slab';
-    font-size: 20px;
-    color: white;
-    margin-right: 30px;  
-}
-#image-banner img{
-    width: 100%;
-}
-.introduction {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 20%;
-    padding-right: 20%;
+    font-size: 15px;
+    font-weight: 900;
+    color: #404040;
+    margin-right: 30px;
+    margin-left: 20px;
+    margin-top: 0px;
 }
 p{
     font-family: 'Lemonada';
     font-size: 15px;
     font-weight: 500;
-    color: white;
+    color: #404040;
+    margin-left: 20px;
+    margin-bottom: 0px;
 }
-.pictures {
-    padding-bottom: 30px;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-#store img{
-    width: 100%;
-}
-.review {
-    padding-bottom: 30px;
-    padding-left: 20%;
-    padding-right: 20%;
-    display: flex;
-    flex-direction: column;
-}
-.review-content{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-between;
-}
-.container{
+.container1{
     padding-top: 120px;
     padding-bottom: 30px;
     padding-left: 20%;
     padding-right: 20%;
     display: flex;
     flex-direction: row;
-    flex-wrap:wrap-reverse;
-
+    justify-content: space-between;
 }
 .subcontainer{
-    width: 25%;
-    object-fit: cover;
+    width: 30%;
+    background: white;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 10px 10px 10px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+}
+.container2{
+    padding-bottom: 30px;
+    padding-left: 20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 #menubutton{
-    text-decoration: none;
-    color: white;
-}
-#menubutton:hover{
-    color: white;
-    text-decoration: underline;
+    text-decoration:red;
 }
