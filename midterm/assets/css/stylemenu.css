@@ -93,5 +93,6 @@ p{
     justify-content: space-between;
 }
 #menubutton{
-    text-decoration:red;
+    text-decoration: none;
+    color: white;
 }

@@ -107,3 +107,7 @@ p{
     color: white;
     text-decoration: underline;
 }
+#menubutton:after{
+    color: white;
+    text-decoration: none;
+}
